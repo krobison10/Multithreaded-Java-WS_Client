@@ -1,0 +1,41 @@
+* {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(41, 44, 51);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin-bottom: 80px;
+}
+
+h2, div#form  {
+  margin-bottom: 50px;
+}
+
+form > div {
+  display: inline;
+}
+
+button {
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  margin-top: 1px;
+}
+
+div#button-container  {
+  height: 50px;
+}
+
